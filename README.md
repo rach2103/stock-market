@@ -1,6 +1,6 @@
 # Stock Price Prediction
 
-## Executive Summary
+
 This project develops a robust pipeline to predict daily stock prices for major technology companies (e.g., AAPL). We compare a traditional statistical approach (**ARIMA**) against a modern machine learning method (**Gradient Boosting**) to determine which technique offers better predictive accuracy and utility for algorithmic trading.
 
 **Key Findings:**
