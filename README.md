@@ -1,6 +1,6 @@
-# 📈 Stock Price Prediction
+# Stock Price Prediction
 
-## 📖 Executive Summary
+## Executive Summary
 This project develops a robust pipeline to predict daily stock prices for major technology companies (e.g., AAPL). We compare a traditional statistical approach (**ARIMA**) against a modern machine learning method (**Gradient Boosting**) to determine which technique offers better predictive accuracy and utility for algorithmic trading.
 
 **Key Findings:**
@@ -8,9 +8,8 @@ This project develops a robust pipeline to predict daily stock prices for major 
 - **Gradient Boosting** struggled with precise level prediction (RMSE $3.94) but successfully identified momentum (Lagged Price & Moving Averages) as the primary driver of price action.
 - The results strongly support the **Random Walk Hypothesis** for daily timeframes.
 
----
 
-## 🛠️ Methodology
+## Methodology
 
 ### 1. Data Preparation
 - **Source:** Historical OHLCV data for `AAPL`, `MSFT`, `GOOGL`, `AMZN`, `TSLA`.
@@ -32,7 +31,7 @@ We engineered features specifically to capture market dynamics. **Crucially, all
 
 ---
 
-## 📊 Analysis & Findings
+##  Analysis & Findings
 
 ### Model Performance (Last 100 Days)
 We evaluated both models on the test set using standard regression metrics.
@@ -49,9 +48,7 @@ We evaluated both models on the test set using standard regression metrics.
 <img width="1600" height="800" alt="Code_Generated_Image" src="https://github.com/user-attachments/assets/bd2c17a5-4b00-465e-99a4-98b22678521b" />
 
 
----
-
-## 💡 Implications for Trading Strategies
+##  Implications for Trading Strategies
 
 Our findings have three major implications for quantitative finance:
 
@@ -69,8 +66,7 @@ In low-latency or high-frequency environments, the computational cost of the ML 
 
 ---
 
-## 🚀 Usage
 
-1. **Clone the repo**
+ **Clone the repo**
    ```bash
    git clone [https://github.com/rach2103/Stock-Prediction.git](https://github.com/rach2103/Stock-Prediction.git)
